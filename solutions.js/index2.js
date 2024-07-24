@@ -19,6 +19,6 @@ function generateArray(start, end) {
   }
   
   // Test cases
-  console.log(generateArray(1, -11)); 
   console.log(generateArray(-1, 11)); 
+  console.log(generateArray(1, -11)); 
   

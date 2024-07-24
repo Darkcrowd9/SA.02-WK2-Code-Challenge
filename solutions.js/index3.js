@@ -14,13 +14,14 @@ function isPrime(num) {
     return true;
   }
   
-  // Function to filter prime numbers from an array
-  function filterPrimes(arr) {
-    return arr.filter(num => isPrime(num));// Use the filter method to keep only the prime numbers from the input array
-  }
-  
+   
   // Test case
   const inputArray = [1, 2, 3, 61, 5, 6, 7, 8, 9, 10, 11, 12,23, 33, 37, 40, 41, 43, 47, 51];
   const resultArray = filterPrimes(inputArray);
   console.log(resultArray);
+
+   // Function to filter prime numbers from an array
+   function filterPrimes(arr) {
+    return arr.filter(num => isPrime(num));// Use the filter method to keep only the prime numbers from the input array
+  }
   
